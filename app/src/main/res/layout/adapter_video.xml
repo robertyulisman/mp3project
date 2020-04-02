@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listcard"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="14dp"
+    android:background="@color/warnapokok"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/youtube_acty"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lama"
+            android:background="@drawable/backgroundsmall"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/judul_lagu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/molengo"
+            android:padding="10dp"
+            android:text="Title of Video"
+            android:textColor="@color/putih"
+            android:background="@color/hitamtransparant"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/youtube_acty"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+             />
+
+
+        <TextView
+            android:id="@+id/lama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:drawableLeft="@android:drawable/presence_away"
+            android:drawablePadding="2dp"
+            android:gravity="center_vertical|end"
+            android:text="24.33min"
+            android:textColor="@color/biru"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="7dp"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/molengo"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical|end"
+            android:text="@string/app_name"
+            android:textColor="@color/biru"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

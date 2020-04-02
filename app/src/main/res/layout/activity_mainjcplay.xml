@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    tools:context=".mp3player.MainActivityJcPlayer">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/putih"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/warnapokok"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/jcplayer"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_below="@+id/toolbar"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+
+    <com.example.jean.jcplayer.view.JcPlayerView
+        android:id="@+id/jcplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/garis3"
+        android:background="@drawable/bg_player_dark"
+        android:gravity="bottom"
+        app:next_icon_color="@color/biru"
+        app:pause_icon_color="@color/biru"
+        app:play_icon_color="@color/biru"
+        app:previous_icon_color="@color/biru"
+        app:progress_color="@color/merah"
+        app:random_icon_color="@android:color/white"
+        app:repeat_icon_color="@android:color/white"
+        app:seek_bar_color="@android:color/white"
+        app:text_audio_current_duration_color="@color/biru"
+        app:text_audio_duration_color="@color/biru"
+        app:text_audio_title_color="@android:color/white" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/garis3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/adView"
+        android:background="#dedede" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_above="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/kodeiklanbanner"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+
+
+</RelativeLayout>

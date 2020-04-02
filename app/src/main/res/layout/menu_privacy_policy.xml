@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btm_nav"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/putih"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/warnapokok"/>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/ic_privacy_policy"
+                android:background="@color/merah"/>
+            <TextView
+                android:fontFamily="@font/molengo"
+                android:textColor="@color/hijau"
+                android:padding="10dp"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy" />
+
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_a" />
+            <TextView
+                android:fontFamily="@font/molengo"
+                android:textColor="@color/hijau"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/personal_information" />
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_b" />
+            <TextView
+                android:fontFamily="@font/molengo"
+                android:textColor="@color/hijau"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/third_party_service" />
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_c" />
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="18sp"
+                android:fontFamily="@font/molengo"
+                android:textColor="@color/hijau"
+                android:textStyle="bold"
+                android:text="@string/adversiting" />
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_d" />
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:fontFamily="@font/molengo"
+                android:textColor="@color/hijau"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/disclaimer" />
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⛔️ This application is only made for Taylor Swift fans" />
+
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⛔️ this application is only made for entertainment" />
+
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⛔️ We do not provide download services in any form" />
+
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⛔️ This application uses third parties in providing all services" />
+
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⛔️ this application does not contain negative content, adult content that smells of porn or nudity and open clothing" />
+
+            <TextView
+                android:textColor="@color/hitam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⛔️ this application contains advertising services that are very relevant so as not to reduce the convenience of the users" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/privacypolicypic"/>
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/btm_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/garis2"
+        app:itemBackground="@color/birutuabanget"
+        app:itemIconTint="@drawable/state_list"
+        app:itemTextColor="@drawable/state_list"
+        app:menu="@menu/menu_bottom_nav_view" />
+
+
+    <RelativeLayout
+        android:id="@+id/garis2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/adView"
+        android:background="#dedede" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#aaa"
+        ads:adSize="SMART_BANNER"
+        app:adUnitId="@string/kodeiklanbanner" />
+
+</RelativeLayout>

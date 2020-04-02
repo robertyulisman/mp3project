@@ -1,0 +1,308 @@
+<resources>
+    <string name="app_name">Shawn Mendes</string>
+    <string name="nama_penyanyi_artis">Shawn Mendes</string>
+    <string name="action_settings">Settings</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+
+
+    <string name="recent_news">Da Nang International Fireworks Festival 2017</string>
+    <string name="in_news">Da Nang International Fireworks Festival 2017Update: Dec 08, 2016 (TITC) - Da Nang International Fireworks Festival 2017 (DIFF 2017) with the theme “Shining Marble Mountains” will take place for two months, from 29 April to 24 June 2017 with the aim to Da Nang become a unique cultural festival tourism space. </string>
+    <string name="publish_date">2017-04-30 12:13:14</string>
+
+
+    <string-array name="audio_name">
+        <item>	A Rodar Mi Vida	</item>
+        <item>	Alas	</item>
+    </string-array>
+
+
+    <string-array name="audio_url" formatted="false">
+        <item>	https://ia601407.us.archive.org/32/items/SoluluGuaGua/Jim%20y%20Yam%20cantan%20A%20rodar%20mi%20vida%20%C2%A6%20Momento%20Musical%20%28con%20letra%29%20%C2%A6%20Soy%20Luna.mp3	</item>
+        <item>	https://ia801407.us.archive.org/32/items/SoluluGuaGua/Elenco%20de%20Soy%20Luna%20-%20Alas%20%28fin%20de%20temporada%29%20ft.%20Karol%20Sevilla%20%28Official%20Music%20Video%29.mp3	</item>
+    </string-array>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">I GOT IT</string>
+
+
+    <string name="text_a">By using this App, you agree to the terms of this privacy policy (the “Privacy Policy”). All the apps under Suci Wulandari Dev are termed below as “we”, “our”, or “us”. And the user are named as “users”. We are committed to protecting your privacy online. This privacy policy explains what information we collect from you or what information you share with us when you use our apps. We review our policy from time to time, so you are advised to check the latest version. IF YOU DON’T AGREE WITH THESE CONDITIONS, THEN PLEASE DON’T USE THE SERVICE.</string>
+    <string name="text_b">We made Apps with your privacy in mind, so we do not collect, store or use any personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or precise geographic location.</string>
+    <string name="text_c">We Developers use third-party analytical tools or software to collect and use certain non-personal data that does not allow us to identify you (we only track data such as: types of devices, mobile device software, data carriers) Third party service providers used by this the app are Google Play Services, AdMob, SoundCloud , and we therefore recommend that you review their privacy policies for more information.</string>
+    <string name="text_d">Advertising partners help us to serve advertisements to you. Some of this technology also helps us to make decisions as to whether or not to show a particular advert to you. Our advertising partners may collect information about you when you use our services or the services of others. This Privacy Policy does not apply to the collection of your information by our advertising partners, and we therefore recommend that you review their privacy policies for more information. Advertisers on mobile devices sometimes use advertising (or ad) identifiers to enable and optimise their advertising. Ad identifiers are non-permanent, non-personal device identifiers such as the Android advertising ID. Advertisers create links available through advertisements or allow you to access third-party sites, tools or games. Please note that, when using such sites, tools or games, you are not affiliated with or controlled by us. Our Developer Application uses Google AdMob ads.</string>
+    <string name="text_e">All of content in this application is not our trademark. Everything is available through this application, only intended for your non-commercial personal use. We only get the content from search engine and website. The copyright of all content in this application is fully owned by the creators, musicians and music labels.</string>
+    <string name="third_party_service">Third Party Service</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="adversiting">Advertising</string>
+    <string name="personal_information">Personal information</string>
+
+
+    <!-- deskripsi judul-->
+    <string name="judul_album_satu">a</string>
+    <string name="judul_album_dua">b</string>
+    <string name="judul_album_tiga">c</string>
+    <string name="judul_album_empat">d</string>
+    <string name="judul_album_lima">e</string>
+    <string name="judul_album_enam">f</string>
+    <string name="judul_album_tujuh">g</string>
+    <string name="judul_album_delapan">h</string>
+
+
+    <string name="judul_album_sembilan">a</string>
+    <string name="judul_album_sepuluh">b</string>
+    <string name="judul_album_sebelas">c</string>
+    <string name="judul_album_duabelas">d</string>
+    <string name="judul_album_tigabelas">e</string>
+    <string name="judul_album_empatbelas">f</string>
+    <string name="judul_album_limabelas">g</string>
+
+
+    <!-- button title-->
+    <string name="jumlah_lagu_satu">1 Songs</string>
+    <string name="jumlah_lagu_dua">1 Songs</string>
+    <string name="jumlah_lagu_tiga">2 Songs</string>
+    <string name="jumlah_lagu_empat">1 Songs</string>
+    <string name="jumlah_lagu_lima">1 Songs</string>
+    <string name="jumlah_lagu_enam">1 Songs</string>
+    <string name="jumlah_lagu_tujuh">1 Songs</string>
+    <string name="jumlah_lagu_delapan">1 Songs</string>
+    <string name="jumlah_lagu_sembilan">1 Songs</string>
+    <string name="jumlah_lagu_sepuluh">2 Songs</string>
+    <string name="jumlah_lagu_sebelas">1 Songs</string>
+    <string name="jumlah_lagu_duabelas">1 Songs</string>
+    <string name="jumlah_lagu_tigabelas">6 Songs</string>
+    <string name="jumlah_lagu_empatbelas">6 Songs</string>
+    <string name="jumlah_lagu_limabelas">1 Songs</string>
+
+
+    <string-array name="judul_lagu_satu">
+        <item>	1. Modo Amar	</item>
+        <item>	2. Soy Yo	</item>
+    </string-array>
+    <string-array name="link_video_satu">
+        <item>	Jxu9fQoGy4I	</item>
+        <item>	TVbEM2TN8v0	</item>
+    </string-array>
+    <string-array name="waktu_video_satu">
+        <item>	4.23	</item>
+        <item>	4.44	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_dua">
+        <item>	1. Alas	</item>
+        <item>	2. Valiente	</item>
+    </string-array>
+    <string-array name="link_video_dua">
+        <item>	T-TYoB-IOJM	</item>
+        <item>	LEldDirVPVc	</item>
+    </string-array>
+    <string-array name="waktu_video_dua">
+        <item>	4.56	</item>
+        <item>	5.10	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_tiga">
+        <item>	1. Siempre Juntos	</item>
+        <item>	2. Alzo Mi Bandera	</item>
+    </string-array>
+    <string-array name="link_video_tiga">
+        <item>	K9wZu4a7Yyg	</item>
+        <item>	XsXOPz7KHHY	</item>
+    </string-array>
+    <string-array name="waktu_video_tiga">
+        <item>	4.54	</item>
+        <item>	4.21	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_empat">
+        <item>	1. Alas	</item>
+        <item>	2. Valiente	</item>
+    </string-array>
+    <string-array name="link_video_empat">
+        <item>	T-TYoB-IOJM	</item>
+        <item>	LEldDirVPVc	</item>
+    </string-array>
+    <string-array name="waktu_video_empat">
+        <item>	4.56	</item>
+        <item>	5.10	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_lima">
+        <item>	1. Vuelo	</item>
+        <item>	2. Musica En Ti	</item>
+    </string-array>
+    <string-array name="link_video_lima">
+        <item>	Pn05e7QtLbY	</item>
+        <item>	_oLy3dWqvT0	</item>
+    </string-array>
+    <string-array name="waktu_video_lima">
+        <item>	4.21	</item>
+        <item>	4.23	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_enam">
+        <item>	1. Alas	</item>
+        <item>	2. Valiente	</item>
+    </string-array>
+    <string-array name="link_video_enam">
+        <item>	T-TYoB-IOJM	</item>
+        <item>	LEldDirVPVc	</item>
+    </string-array>
+    <string-array name="waktu_video_enam">
+        <item>	4.44	</item>
+        <item>	4.56	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_tujuh">
+        <item>	1. Vuelo (Soy Luna)	</item>
+        <item>	2. Musica En Ti	</item>
+    </string-array>
+    <string-array name="link_video_tujuh">
+        <item>	Pn05e7QtLbY	</item>
+        <item>	_oLy3dWqvT0	</item>
+    </string-array>
+    <string-array name="waktu_video_tujuh">
+        <item>	4.23	</item>
+        <item>	4.44	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_delapan">
+        <item>	1. Vuelo	</item>
+        <item>	2. Musica En Ti	</item>
+    </string-array>
+    <string-array name="link_video_delapan">
+        <item>	Pn05e7QtLbY	</item>
+        <item>	_oLy3dWqvT0	</item>
+    </string-array>
+    <string-array name="waktu_video_delapan">
+        <item>	4.21	</item>
+        <item>	4.54	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_sembilan">
+        <item>	1. Sparks Fly	</item>
+        <item>	2. Mine	</item>
+    </string-array>
+    <string-array name="link_video_sembilan">
+        <item>	oKar-tF__ac	</item>
+        <item>	XPBwXKgDTdE	</item>
+    </string-array>
+    <string-array name="waktu_video_sembilan">
+        <item>	4.56	</item>
+        <item>	5.10	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_sepuluh">
+        <item>	1. Mine	</item>
+        <item>	2. Sparks Fly	</item>
+    </string-array>
+    <string-array name="link_video_sepuluh">
+        <item>	XPBwXKgDTdE	</item>
+        <item>	oKar-tF__ac	</item>
+    </string-array>
+    <string-array name="waktu_video_sepuluh">
+        <item>	4.21	</item>
+        <item>	4.54	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_sebelas">
+        <item>	1. Jump Then Fall	</item>
+        <item>	2. Untouchable	</item>
+    </string-array>
+    <string-array name="link_video_sebelas">
+        <item>	bZwdYrs9ExE	</item>
+        <item>	Lh2Z5EvURVU	</item>
+    </string-array>
+    <string-array name="waktu_video_sebelas">
+        <item>	4.21	</item>
+        <item>	4.23	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_duabelas">
+        <item>	1. Umbrella	</item>
+        <item>	2. Our Song	</item>
+    </string-array>
+    <string-array name="link_video_duabelas">
+        <item>	UWFWTGYBWPw	</item>
+        <item>	Jb2stN7kH28	</item>
+    </string-array>
+    <string-array name="waktu_video_duabelas">
+        <item>	5.10	</item>
+        <item>	4.21	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_tigabelas">
+        <item>	1. Beautiful Eyes	</item>
+        <item>	2. Shouldve Said No	</item>
+    </string-array>
+    <string-array name="link_video_tigabelas">
+        <item>	SnGJGrlSNko	</item>
+        <item>	ZqljHLwqjSo	</item>
+    </string-array>
+    <string-array name="waktu_video_tigabelas">
+        <item>	4.54	</item>
+        <item>	5.10	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_empatbelas">
+        <item>	1. Last Christmas	</item>
+        <item>	2. Christmases When You Were Mine	</item>
+    </string-array>
+    <string-array name="link_video_empatbelas">
+        <item>	T4pTMZuAux4	</item>
+        <item>	Ewf7njAnKDU	</item>
+    </string-array>
+    <string-array name="waktu_video_empatbelas">
+        <item>	4.21	</item>
+        <item>	4.54	</item>
+    </string-array>
+
+    <string-array name="judul_lagu_limabelas">
+        <item>	1. Tim McGraw	</item>
+        <item>	2. Picture To Burn	</item>
+    </string-array>
+    <string-array name="link_video_limabelas">
+        <item>	GkD20ajVxnY	</item>
+        <item>	yCMqcFAigRg	</item>
+    </string-array>
+    <string-array name="waktu_video_limabelas">
+        <item>	5.10	</item>
+        <item>	4.21	</item>
+    </string-array>
+
+
+    <string name="kodeiklanadmob">pub-3939903388953034</string>
+    <string name="kodeappidadmob">ca-app-pub-3939903388953034~9374436762</string>
+
+    <string name="kodeiklanbanner">ca-app-pub-3939903388953034/6393050200</string>
+    <string name="kodeiklanintersial">ca-app-pub-3939903388953034/5598843284</string>
+
+
+    <!--karol sevilla-->
+
+    <string name="teksatuartissatu">Karol Sevilla is a Mexican actress, singer, songwriter, and YouTuber. She came into prominence by playing various roles in the sitcom ‘La rosa de Guadalupe’. She has also guest-starred in a number of TV programs. Despite being quite young, she already has several hit shows to her credit. She began her career at an early age and it won’t be wrong to say that she literally grew up in front of the camera! The actress has also acted on stage, most notably in plays such as ‘La Novicia Rebelde’, ‘Anita La Huerfanita’ and ‘Fantabulosa’. Currently, she plays the role of Luna Valente / Sol Benson on Disney Channel’s ‘Soy Luna’. Sevilla also runs a YouTube channel on which she posts vlogs, covers, and more. Talking about the channel’s popularity, it has successfully garnered over 6.1m subscribers and about 510 million views as of March 2018. On a personal note, the Mexican actress is a lively young woman in real life. She is extremely enthusiastic and loves sharing her life stories with her fans and admirers. This is one of the reasons she is active on various social networking platforms.
+</string>
+    <string name="tekduaartissatu">Third Party Service</string>
+    <string name="career">Karol Sevilla started her career in commercials at the age of six. She then went on to appear in the production of ‘La Novicia Rebelde’ in 2008. The same year, she was cast in the series ‘La rosa de Guadalupe’ in which she portrayed multiple roles. Soon after this, she appeared in an episode of ‘Mujeres asesinas’.
+During 2010 and 2011, the actress got featured in three episodes of ‘Para volver a amar’. Around the same period, she also performed in the plays ‘Timbiriche’ and ‘Anita La Huerfanita’. After this, Sevilla played María Luz Marilu Lobo Ballesteros in two episodes of ‘Amorcito corazón’. From 2012 to 2014, she had roles in the program ‘Como dice el dicho’ as well as in the plays ‘El Mago de Oz’ and ‘Fantabulosa’.
+In 2016, the Mexican artiste began playing the role of Luna Valente / Sol Benson in the telenovela ‘Soy Luna’. The following year, she appeared as a special guest in ‘Junior Express’.
+Talking about Sevilla’s YouTube career, she joined the social platform on January 27, 2016. Her first video was titled ‘Karol Sevilla | ¡Llegué a Youtube’. After this, several videos followed and the actress became a YouTube star in no time. Today, her channel has over 6.1 million subscribers and more than 510 million views. Each and every video of Sevilla, whether it’s a vlog or a song cover, is worth-watching!
+</string>
+    <string name="personallife">Karol Sevilla was born on November 9, 1999 in Mexico City, Mexico to Carolina and Javier. She has two elder brothers named Mauricio and Angelo. Her grandmother’s name was Berta.
+From 2006 to 2008, Sevilla attended the Centro de Educación Artística (CEA) Infantil. She is good friends with Lionel Ferro and Katja Martínez. Her favorite artists are Selena Gomez, Justin Bieber, and Robert Downey Jr.
+</string>
+
+    <!--valentina zenere-->
+    <string name="teksatuartisdua">Valentina Zenere is an Argentine actress and model, who gained fame after landing the role of Ambar Smith on the series Soy Luna aired on the Disney Channel. The actress started showing interest in performing arts from an early age and was encouraged by her parents to pursue her dreams. This gave her the motivation to start looking for roles and appearing on auditions. She found early success as a model and also started being cast on theater productions and musical comedies. She made her first on-screen appearance on a TV commercial for ‘Barbie’. The young actress then found herself in the role of Alai Inchausti or Alai Morales Romero on the TV series ‘Casi Ángeles (Almost Angels)’ and was seen on the episode ‘El Muro’. She was then seen on the show ‘Aliados’. Although her most famous role to date remains on ‘Soy Luna’, Valentina Zenere has ventured to other genres of the entertainment industry and has garnered impressive social media following.
+           </string>
+    <string name="zenerecareer">a</string>
+    <string name="zenerepersonallife">Valentina Zenere was born on January 15, 1997, in Buenos Aires, Argentina. Although having a large social media presence, the actress has maintained her privacy when it comes to her family. She acknowledged in an interview that a large part of her success was due to the motivation from her parents. Currently, the actress-singer is not dating anyone and has claimed to be enjoying a single life
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".daftaralbum.AlbumHome">
+
+
+
+
+
+
+                <ScrollView
+                    android:id="@+id/rooling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/garis2"
+                    android:layout_alignParentTop="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp"
+                            android:gravity="center">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/card_satu"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                android:clickable="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="220dp">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                   android:layout_gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="120dp"
+                                        android:padding="10dp"
+                                        android:background="@drawable/albumsatu" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/judul_album_satu"
+                                        android:textSize="16dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/molengo"
+                                        android:textStyle="bold"
+                                      android:layout_marginTop="10dp"
+                                        android:textColor="@color/hitam"/>
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/jumlah_lagu_satu"
+                                        android:textSize="12dp"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:textStyle="italic"
+                                        android:textColor="@color/hitam"/>
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp"
+                            android:gravity="center">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/card_dua"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                android:clickable="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="220dp">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="120dp"
+                                        android:padding="10dp"
+                                        android:background="@drawable/albumdua" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/judul_album_dua"
+                                        android:textSize="16dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:textStyle="bold"
+                                        android:fontFamily="@font/molengo"
+                                        android:layout_marginTop="10dp"
+                                        android:textColor="@color/hitam"/>
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/jumlah_lagu_dua"
+                                        android:textSize="12dp"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:textStyle="italic"
+                                        android:textColor="@color/hitam"/>
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp"
+                            android:gravity="center">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/card_tiga"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                android:clickable="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="220dp">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="120dp"
+                                        android:padding="10dp"
+                                        android:background="@drawable/albumtiga" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/judul_album_tiga"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="@font/molengo"
+                                        android:layout_marginTop="10dp"
+                                        android:textColor="@color/hitam"/>
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/jumlah_lagu_tiga"
+                                        android:textSize="12dp"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="5dp"
+                                        android:textStyle="italic"
+                                        android:textColor="@color/hitam"/>
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_margin="5dp"
+                                android:gravity="center">
+
+                                <android.support.v7.widget.CardView
+                                    android:id="@+id/card_empat"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="220dp">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="120dp"
+                                            android:padding="10dp"
+                                            android:background="@drawable/albumempat" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/judul_album_empat"
+                                            android:textSize="16dp"
+                                            android:textStyle="bold"
+                                            android:layout_marginLeft="5dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:layout_marginTop="10dp"
+                                            android:textColor="@color/hitam"/>
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/jumlah_lagu_empat"
+                                            android:textSize="12dp"
+                                            android:gravity="center"
+                                            android:layout_marginLeft="5dp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/hitam"/>
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_margin="5dp"
+                                android:gravity="center">
+
+                                <android.support.v7.widget.CardView
+                                    android:id="@+id/card_lima"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="220dp">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="120dp"
+                                            android:padding="10dp"
+                                            android:background="@drawable/albumlima" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/judul_album_lima"
+                                            android:textSize="16dp"
+                                            android:textStyle="bold"
+                                            android:layout_marginLeft="5dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:layout_marginTop="10dp"
+                                            android:textColor="@color/hitam"/>
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/jumlah_lagu_lima"
+                                            android:textSize="12dp"
+                                            android:gravity="center"
+                                            android:textStyle="italic"
+                                            android:layout_marginLeft="5dp"
+                                            android:textColor="@color/hitam"/>
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_margin="5dp"
+                                android:gravity="center">
+
+                                <android.support.v7.widget.CardView
+                                    android:id="@+id/card_enam"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="220dp">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="120dp"
+                                            android:padding="10dp"
+                                            android:background="@drawable/albumenam" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/judul_album_enam"
+                                            android:textSize="16dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:textStyle="bold"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="10dp"
+                                            android:textColor="@color/hitam"/>
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/jumlah_lagu_enam"
+                                            android:textSize="12dp"
+                                            android:gravity="center"
+                                            android:layout_marginLeft="5dp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/hitam"/>
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+
+
+                            </RelativeLayout>
+
+
+
+                        </LinearLayout>
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="220dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:layout_marginRight="5dp"-->
+<!--                            android:orientation="horizontal"-->
+<!--                            android:weightSum="3">-->
+
+<!--                            <RelativeLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:layout_margin="5dp"-->
+<!--                                android:gravity="center">-->
+
+<!--                                <android.support.v7.widget.CardView-->
+<!--                                    android:id="@+id/card_tujuh"-->
+<!--                                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                                    android:clickable="true"-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="220dp">-->
+<!--                                    <LinearLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="match_parent"-->
+<!--                                        android:orientation="vertical"-->
+<!--                                        android:layout_gravity="center">-->
+
+<!--                                        <ImageView-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="120dp"-->
+<!--                                            android:padding="10dp"-->
+<!--                                            android:background="@drawable/albumtujuh" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="@string/judul_album_tujuh"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            android:textStyle="bold"-->
+<!--                                            android:layout_marginLeft="5dp"-->
+<!--                                            android:fontFamily="@font/molengo"-->
+<!--                                            android:layout_marginTop="10dp"-->
+<!--                                            android:textColor="@color/hitam"/>-->
+
+
+
+<!--                                        <TextView-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="@string/jumlah_lagu_tujuh"-->
+<!--                                            android:textSize="12dp"-->
+<!--                                            android:gravity="center"-->
+<!--                                            android:textStyle="italic"-->
+<!--                                            android:layout_marginLeft="5dp"-->
+<!--                                            android:textColor="@color/hitam"/>-->
+<!--                                    </LinearLayout>-->
+<!--                                </android.support.v7.widget.CardView>-->
+
+
+
+<!--                            </RelativeLayout>-->
+<!--                            <RelativeLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:layout_margin="5dp"-->
+<!--                                android:gravity="center">-->
+
+<!--                                <android.support.v7.widget.CardView-->
+<!--                                    android:id="@+id/card_delapan"-->
+<!--                                    android:foreground="?android:attr/selectableItemBackground"-->
+<!--                                    android:clickable="true"-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="220dp">-->
+<!--                                    <LinearLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="match_parent"-->
+<!--                                        android:orientation="vertical"-->
+<!--                                        android:layout_gravity="center">-->
+
+<!--                                        <ImageView-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="120dp"-->
+<!--                                            android:padding="10dp"-->
+<!--                                            android:background="@drawable/albumdelapan" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="@string/judul_album_delapan"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            android:fontFamily="@font/molengo"-->
+<!--                                            android:textStyle="bold"-->
+<!--                                            android:layout_marginLeft="5dp"-->
+<!--                                            android:layout_marginTop="10dp"-->
+<!--                                            android:textColor="@color/hitam"/>-->
+
+
+
+<!--                                        <TextView-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="@string/jumlah_lagu_delapan"-->
+<!--                                            android:textSize="12dp"-->
+<!--                                            android:gravity="center"-->
+<!--                                            android:textStyle="italic"-->
+<!--                                            android:layout_marginLeft="5dp"-->
+<!--                                            android:textColor="@color/hitam"/>-->
+<!--                                    </LinearLayout>-->
+<!--                                </android.support.v7.widget.CardView>-->
+
+
+
+<!--                            </RelativeLayout>-->
+<!--                            &lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+<!--                                &lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+<!--                                &lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+<!--                                &lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+<!--                                &lt;!&ndash;android:layout_margin="5dp"&ndash;&gt;-->
+<!--                                &lt;!&ndash;android:gravity="center">&ndash;&gt;-->
+
+<!--                                &lt;!&ndash;<android.support.v7.widget.CardView&ndash;&gt;-->
+<!--                                    &lt;!&ndash;android:id="@+id/card_sembilan"&ndash;&gt;-->
+<!--                                    &lt;!&ndash;android:foreground="?android:attr/selectableItemBackground"&ndash;&gt;-->
+<!--                                    &lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+<!--                                    &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+<!--                                    &lt;!&ndash;android:layout_height="220dp">&ndash;&gt;-->
+<!--                                    &lt;!&ndash;<LinearLayout&ndash;&gt;-->
+<!--                                        &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;android:layout_gravity="center">&ndash;&gt;-->
+
+<!--                                        &lt;!&ndash;<ImageView&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_height="120dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:background="@drawable/albumsembilan" />&ndash;&gt;-->
+
+<!--                                        &lt;!&ndash;<TextView&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:text="@string/judul_album_sembilan"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:textSize="16dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:fontFamily="@font/molengo"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:textColor="@color/hitam"/>&ndash;&gt;-->
+
+
+
+<!--                                        &lt;!&ndash;<TextView&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:text="@string/jumlah_lagu_sembilan"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:textSize="12dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:textStyle="italic"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+<!--                                            &lt;!&ndash;android:textColor="@color/hitam"/>&ndash;&gt;-->
+<!--                                    &lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+<!--                                &lt;!&ndash;</android.support.v7.widget.CardView>&ndash;&gt;-->
+
+
+
+<!--                            &lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+
+
+<!--                        </LinearLayout>-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="220dp"-->
+                            <!--android:layout_marginTop="10dp"-->
+                            <!--android:layout_marginLeft="5dp"-->
+                            <!--android:layout_marginRight="5dp"-->
+                            <!--android:orientation="horizontal"-->
+                            <!--android:weightSum="3">-->
+
+                            <!--<RelativeLayout-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="match_parent"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_margin="5dp"-->
+                                <!--android:gravity="center">-->
+
+                                <!--<android.support.v7.widget.CardView-->
+                                    <!--android:id="@+id/card_sepuluh"-->
+                                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                                    <!--android:clickable="true"-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="220dp">-->
+                                    <!--<LinearLayout-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="match_parent"-->
+                                        <!--android:orientation="vertical"-->
+                                        <!--android:layout_gravity="center">-->
+
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="120dp"-->
+                                            <!--android:padding="10dp"-->
+                                            <!--android:background="@drawable/albumsepuluh" />-->
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/judul_album_sepuluh"-->
+                                            <!--android:textSize="16dp"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textStyle="bold"-->
+                                            <!--android:fontFamily="@font/molengo"-->
+                                            <!--android:layout_marginTop="10dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+
+
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/jumlah_lagu_sepuluh"-->
+                                            <!--android:textSize="12dp"-->
+                                            <!--android:gravity="center"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textStyle="italic"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+                                    <!--</LinearLayout>-->
+                                <!--</android.support.v7.widget.CardView>-->
+
+
+
+                            <!--</RelativeLayout>-->
+                            <!--<RelativeLayout-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="match_parent"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_margin="5dp"-->
+                                <!--android:gravity="center">-->
+
+                                <!--<android.support.v7.widget.CardView-->
+                                    <!--android:id="@+id/card_sebelas"-->
+                                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                                    <!--android:clickable="true"-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="220dp">-->
+                                    <!--<LinearLayout-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="match_parent"-->
+                                        <!--android:orientation="vertical"-->
+                                        <!--android:layout_gravity="center">-->
+
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="120dp"-->
+                                            <!--android:padding="10dp"-->
+                                            <!--android:background="@drawable/albumsebelas" />-->
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/judul_album_sebelas"-->
+                                            <!--android:textSize="16dp"-->
+                                            <!--android:textStyle="bold"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:fontFamily="@font/molengo"-->
+                                            <!--android:layout_marginTop="10dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+
+
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/jumlah_lagu_sebelas"-->
+                                            <!--android:textSize="12dp"-->
+                                            <!--android:gravity="center"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textStyle="italic"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+                                    <!--</LinearLayout>-->
+                                <!--</android.support.v7.widget.CardView>-->
+
+
+
+                            <!--</RelativeLayout>-->
+                            <!--<RelativeLayout-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="match_parent"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_margin="5dp"-->
+                                <!--android:gravity="center">-->
+
+                                <!--<android.support.v7.widget.CardView-->
+                                    <!--android:id="@+id/card_duabelas"-->
+                                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                                    <!--android:clickable="true"-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="220dp">-->
+                                    <!--<LinearLayout-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="match_parent"-->
+                                        <!--android:orientation="vertical"-->
+                                        <!--android:layout_gravity="center">-->
+
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="120dp"-->
+                                            <!--android:padding="10dp"-->
+                                            <!--android:background="@drawable/albumduabelas" />-->
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/judul_album_duabelas"-->
+                                            <!--android:textSize="16dp"-->
+                                            <!--android:textStyle="bold"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:fontFamily="@font/molengo"-->
+                                            <!--android:layout_marginTop="10dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+
+
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/jumlah_lagu_duabelas"-->
+                                            <!--android:textSize="12dp"-->
+                                            <!--android:gravity="center"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textStyle="italic"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+                                    <!--</LinearLayout>-->
+                                <!--</android.support.v7.widget.CardView>-->
+
+
+
+                            <!--</RelativeLayout>-->
+
+
+
+                        <!--</LinearLayout>-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="220dp"-->
+                            <!--android:layout_marginTop="10dp"-->
+                            <!--android:layout_marginLeft="5dp"-->
+                            <!--android:layout_marginRight="5dp"-->
+                            <!--android:orientation="horizontal"-->
+                            <!--android:weightSum="3">-->
+
+                            <!--<RelativeLayout-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="match_parent"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_margin="5dp"-->
+                                <!--android:gravity="center">-->
+
+                                <!--<android.support.v7.widget.CardView-->
+                                    <!--android:id="@+id/card_tigabelas"-->
+                                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                                    <!--android:clickable="true"-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="220dp">-->
+                                    <!--<LinearLayout-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="match_parent"-->
+                                        <!--android:orientation="vertical"-->
+                                        <!--android:layout_gravity="center">-->
+
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="120dp"-->
+                                            <!--android:padding="10dp"-->
+                                            <!--android:background="@drawable/albumtigabelas" />-->
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/judul_album_tigabelas"-->
+                                            <!--android:textSize="16dp"-->
+                                            <!--android:textStyle="bold"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:fontFamily="@font/molengo"-->
+                                            <!--android:layout_marginTop="10dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+
+
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/jumlah_lagu_tigabelas"-->
+                                            <!--android:textSize="12dp"-->
+                                            <!--android:gravity="center"-->
+                                            <!--android:textStyle="italic"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+                                    <!--</LinearLayout>-->
+                                <!--</android.support.v7.widget.CardView>-->
+
+
+
+                            <!--</RelativeLayout>-->
+                            <!--<RelativeLayout-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="match_parent"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_margin="5dp"-->
+                                <!--android:gravity="center">-->
+
+                                <!--<android.support.v7.widget.CardView-->
+                                    <!--android:id="@+id/card_empatbelas"-->
+                                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                                    <!--android:clickable="true"-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="220dp">-->
+                                    <!--<LinearLayout-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="match_parent"-->
+                                        <!--android:orientation="vertical"-->
+                                        <!--android:layout_gravity="center">-->
+
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="120dp"-->
+                                            <!--android:padding="10dp"-->
+                                            <!--android:background="@drawable/albumempatbelas" />-->
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/judul_album_empatbelas"-->
+                                            <!--android:textSize="16dp"-->
+                                            <!--android:textStyle="bold"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:fontFamily="@font/molengo"-->
+                                            <!--android:layout_marginTop="10dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+
+
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/jumlah_lagu_empatbelas"-->
+                                            <!--android:textSize="12dp"-->
+                                            <!--android:gravity="center"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textStyle="italic"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+                                    <!--</LinearLayout>-->
+                                <!--</android.support.v7.widget.CardView>-->
+
+
+
+                            <!--</RelativeLayout>-->
+                            <!--<RelativeLayout-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="match_parent"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:layout_margin="5dp"-->
+                                <!--android:gravity="center">-->
+
+                                <!--<android.support.v7.widget.CardView-->
+                                    <!--android:id="@+id/card_limabelas"-->
+                                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                                    <!--android:clickable="true"-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="220dp">-->
+                                    <!--<LinearLayout-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="match_parent"-->
+                                        <!--android:orientation="vertical"-->
+                                        <!--android:layout_gravity="center">-->
+
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="match_parent"-->
+                                            <!--android:layout_height="120dp"-->
+                                            <!--android:padding="10dp"-->
+                                            <!--android:background="@drawable/albumlimabelas" />-->
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/judul_album_limabelas"-->
+                                            <!--android:textSize="16dp"-->
+                                            <!--android:textStyle="bold"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:fontFamily="@font/molengo"-->
+                                            <!--android:layout_marginTop="10dp"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+
+
+
+                                        <!--<TextView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content"-->
+                                            <!--android:text="@string/jumlah_lagu_limabelas"-->
+                                            <!--android:textSize="12dp"-->
+                                            <!--android:gravity="center"-->
+                                            <!--android:layout_marginLeft="5dp"-->
+                                            <!--android:textStyle="italic"-->
+                                            <!--android:textColor="@color/hitam"/>-->
+                                    <!--</LinearLayout>-->
+                                <!--</android.support.v7.widget.CardView>-->
+
+
+
+                            <!--</RelativeLayout>-->
+
+
+
+                        <!--</LinearLayout>-->
+                    </LinearLayout>
+                </ScrollView>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/garis2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/iklanBn"
+        android:background="#dedede" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/iklanBn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/kodeiklanbanner"
+        />
+
+</RelativeLayout>

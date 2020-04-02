@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.baru.shawnmendes">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3939903388953034~9374436762"/>
+
+        <activity android:name="com.baru.shawnmendes.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.baru.shawnmendes.HalamanLayarPembuka" />
+        <activity android:name="com.baru.shawnmendes.WelcomeApp" />
+        <activity android:name="com.baru.shawnmendes.DashboardPage"
+                  android:parentActivityName="com.baru.shawnmendes.WelcomeApp" >
+        </activity>
+        <activity android:name="com.baru.shawnmendes.webview.fashion"
+                  android:label="fashion"
+                  android:parentActivityName="com.baru.shawnmendes.DashboardPage" >
+        </activity>
+        <activity android:name="com.baru.shawnmendes.webview.reviews"
+                  android:parentActivityName="com.baru.shawnmendes.DashboardPage" >
+        </activity>
+        <activity android:name="com.baru.shawnmendes.webview.lifestyle"
+                  android:parentActivityName="com.baru.shawnmendes.DashboardPage" >
+        </activity>
+        <activity android:name="com.baru.shawnmendes.lirikmp3.HomeActivity"
+                  android:parentActivityName="com.baru.shawnmendes.DashboardPage" >
+        </activity>
+        <activity android:name="com.baru.shawnmendes.lirikmp3.PlayerActivity"
+                  android:parentActivityName="com.baru.shawnmendes.lirikmp3.HomeActivity" >
+        </activity>
+        <activity android:name="com.baru.shawnmendes.lirikmp3.MainActivity"
+                  android:label="Main Activity"
+                    android:theme="@style/AppTheme.NoActionBar"
+                  android:parentActivityName="com.baru.shawnmendes.lirikmp3.HomeActivity" >
+        </activity>
+
+        <activity android:name="com.baru.shawnmendes.VideoLyricPage" />
+        <activity android:name="com.baru.shawnmendes.HalamanPemutarYoutubeLirik" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumSatu" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumDua" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumTiga" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumEmpat" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumLima" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumLimaBelas" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumEnam" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.Albumtujuh" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumDelapan" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumSembilan" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumSepuluh" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumSebelas" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumDuaBelas" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumTigaBelas" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumEmpatBelas" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumHome" />
+        <activity android:name="com.baru.shawnmendes.optionmenu.MenuPrivacyPolicy" />
+        <activity android:name="com.baru.shawnmendes.optionmenu.MenuSetting" />
+        <activity android:name="com.baru.shawnmendes.optionmenu.MenuAbout" />
+        <activity android:name="com.baru.shawnmendes.daftaralbum.AlbumPemutarYoutube" />
+        <activity android:name="com.baru.shawnmendes.mp3player.MainActivityJcPlayer" android:label="Mp3 Player"
+            android:parentActivityName="com.baru.shawnmendes.WelcomeApp" >
+        </activity>
+    </application>
+
+</manifest>

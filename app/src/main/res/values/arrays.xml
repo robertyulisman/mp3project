@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="infos">
+        <item>	a1	</item>
+        <item>	a2	</item>
+    </array>
+
+
+    <array name="ytlinks">
+        <item>	91--yj1EGdY	</item>
+        <item>	T-TYoB-IOJM	</item>
+    </array>
+
+
+
+
+    <array name="titles">
+        <item>	A Rodar Mi Vida	</item>
+        <item>	Alas	</item>
+
+    </array>
+
+
+
+
+</resources>

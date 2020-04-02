@@ -1,0 +1,461 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.ads.consent:consent-library:1.0.6] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\consent-library-1.0.6.aar\da5e3bd89646e6d7ad878c4304575ef5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.cortinico:slidetoact:v0.3.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\slidetoact-v0.3.0.aar\aa4f695ebaf32a07f2645021536475e2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\floatingsearchview-2.1.1.aar\3dd13adddf29e1844630d54f258c1072\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\088848486935fd8536599ab0e69b6249\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5f47428919f68a97b3b87f8c79a502fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fc213692d03b7c770a4fd74889d729e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\b4dc52e397f3fb75676f77894b3e2129\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\878aa83fd8a592b8dd09d3fe1825c984\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\07a30cfcf8293edea398d6c8c9fe836b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\fab-1.6.2.aar\b36547814838db399aa761198b7f8c8e\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\a9fc552e0ab1032aa73d9b83f9dd0fe5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\4b3128f9922e54ca7b597d7cb817da52\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewpropertyobjectanimator-1.2.0.aar\e2f4358c5701c87f7cd19f5115a7e6c6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e574b007182a2ec7e7072bb170b57b58\AndroidManifest.xml:17:1-22:12
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\70ed19023911c2cf02671165e7ff7bc9\AndroidManifest.xml:2:1-12:12
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\333a01c77c48d3642fd2106895e5fa63\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\29a224792cb222f1f40235c3f8787955\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\52376f7b6e38c77efb5c74456b8912d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d52a7244faa0ecab3c357241b19da4bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\61b7dfd652cc031c04ab1590ea378463\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a3daca30d5354817831335e13c29acc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\51083aa5cddd1436b56e3430cffac5e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e843fdd7a0dd9ebdbdfa0272ef9b73ca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\23811757cfec707f3c39eb69b5ec55fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\66750bfed49e3216057f228b30b8e8ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\885af30e9224e7f57dda2df5a1e9d0ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\596c4edafed59cd9a78576c4605d273c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2ebe84b912d020c7db133518d62a0c0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d7099f922f1062ddddf7ec50ffdac80f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\39e4032813916034426f48e5c8073d76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\861b544f7d9be671205e650e15584318\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\21bb6853f7fb746c6d24e81d43fc35c5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e7c0b0242ba4bcb0b1ef0e50997a173a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\9e06edf9fc5055a0dd3ea7d32773519b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\d1126a0ae8bdb5a721a94ab109b2078a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\3a34b90448f681f34b3d2ba021fd3c69\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1b065fdb70718c9857d347ae0b43c477\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9f1ae33ac73966f11506bdfe3c56e4ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a0e2653bbbc30a008412977c4c1d1231\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ccbfc40511cd8738a8e05fc18ea43b35\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9645eba4127d418a8c2436184fd9f180\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9eb2d7e2ee0bae047207c6b954d71be8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b1e897b88f8b0701d8d5f74dcbf19a30\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\b8086c00ebfe5dc1484516cc88744453\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+	package
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:1-86:12
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:11:5-67
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:9:22-76
+application
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:11:5-84:19
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:13:5-24:19
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:13:5-24:19
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\floatingsearchview-2.1.1.aar\3dd13adddf29e1844630d54f258c1072\AndroidManifest.xml:12:5-20
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\floatingsearchview-2.1.1.aar\3dd13adddf29e1844630d54f258c1072\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\088848486935fd8536599ab0e69b6249\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\088848486935fd8536599ab0e69b6249\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\07a30cfcf8293edea398d6c8c9fe836b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\07a30cfcf8293edea398d6c8c9fe836b\AndroidManifest.xml:9:5-20
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\fab-1.6.2.aar\b36547814838db399aa761198b7f8c8e\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\fab-1.6.2.aar\b36547814838db399aa761198b7f8c8e\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\a9fc552e0ab1032aa73d9b83f9dd0fe5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\a9fc552e0ab1032aa73d9b83f9dd0fe5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\4b3128f9922e54ca7b597d7cb817da52\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\4b3128f9922e54ca7b597d7cb817da52\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\21bb6853f7fb746c6d24e81d43fc35c5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\21bb6853f7fb746c6d24e81d43fc35c5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e7c0b0242ba4bcb0b1ef0e50997a173a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e7c0b0242ba4bcb0b1ef0e50997a173a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\b8086c00ebfe5dc1484516cc88744453\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\b8086c00ebfe5dc1484516cc88744453\AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\21bb6853f7fb746c6d24e81d43fc35c5\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:15:9-48
+	android:icon
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:17:9-40
+	tools:replace
+		ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:17:9-38
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:20:9-22:69
+	android:value
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:22:13-67
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:21:13-69
+activity#com.baru.shawnmendes.WelcomeActivity
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:24:9-31:20
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:24:19-70
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:25:13-30:29
+action#android.intent.action.MAIN
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:26:25-66
+action#android.intent.action.VIEW
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.baru.shawnmendes.HalamanLayarPembuka
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:32:9-77
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:32:19-74
+activity#com.baru.shawnmendes.WelcomeApp
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:33:9-68
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:33:19-65
+activity#com.baru.shawnmendes.DashboardPage
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:34:9-36:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:35:19-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:34:19-68
+activity#com.baru.shawnmendes.webview.fashion
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:37:9-40:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:39:19-82
+	android:label
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:38:19-42
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:37:19-70
+activity#com.baru.shawnmendes.webview.reviews
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:41:9-43:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:42:19-82
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:41:19-70
+activity#com.baru.shawnmendes.webview.lifestyle
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:44:9-46:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:45:19-82
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:44:19-72
+activity#com.baru.shawnmendes.lirikmp3.HomeActivity
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:47:9-49:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:48:19-82
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:47:19-76
+activity#com.baru.shawnmendes.lirikmp3.PlayerActivity
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:50:9-52:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:51:19-90
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:50:19-78
+activity#com.baru.shawnmendes.lirikmp3.MainActivity
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:53:9-57:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:56:19-90
+	android:label
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:54:19-48
+	android:theme
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:55:21-64
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:53:19-76
+activity#com.baru.shawnmendes.VideoLyricPage
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:59:9-72
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:59:19-69
+activity#com.baru.shawnmendes.HalamanPemutarYoutubeLirik
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:60:9-84
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:60:19-81
+activity#com.baru.shawnmendes.daftaralbum.AlbumSatu
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:61:9-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:61:19-76
+activity#com.baru.shawnmendes.daftaralbum.AlbumDua
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:62:9-78
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:62:19-75
+activity#com.baru.shawnmendes.daftaralbum.AlbumTiga
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:63:9-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:63:19-76
+activity#com.baru.shawnmendes.daftaralbum.AlbumEmpat
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:64:9-80
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:64:19-77
+activity#com.baru.shawnmendes.daftaralbum.AlbumLima
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:65:9-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:65:19-76
+activity#com.baru.shawnmendes.daftaralbum.AlbumLimaBelas
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:66:9-84
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:66:19-81
+activity#com.baru.shawnmendes.daftaralbum.AlbumEnam
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:67:9-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:67:19-76
+activity#com.baru.shawnmendes.daftaralbum.Albumtujuh
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:68:9-80
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:68:19-77
+activity#com.baru.shawnmendes.daftaralbum.AlbumDelapan
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:69:9-82
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:69:19-79
+activity#com.baru.shawnmendes.daftaralbum.AlbumSembilan
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:70:9-83
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:70:19-80
+activity#com.baru.shawnmendes.daftaralbum.AlbumSepuluh
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:71:9-82
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:71:19-79
+activity#com.baru.shawnmendes.daftaralbum.AlbumSebelas
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:72:9-82
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:72:19-79
+activity#com.baru.shawnmendes.daftaralbum.AlbumDuaBelas
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:73:9-83
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:73:19-80
+activity#com.baru.shawnmendes.daftaralbum.AlbumTigaBelas
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:74:9-84
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:74:19-81
+activity#com.baru.shawnmendes.daftaralbum.AlbumEmpatBelas
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:75:9-85
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:75:19-82
+activity#com.baru.shawnmendes.daftaralbum.AlbumHome
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:76:9-79
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:76:19-76
+activity#com.baru.shawnmendes.optionmenu.MenuPrivacyPolicy
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:77:9-86
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:77:19-83
+activity#com.baru.shawnmendes.optionmenu.MenuSetting
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:78:9-80
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:78:19-77
+activity#com.baru.shawnmendes.optionmenu.MenuAbout
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:79:9-78
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:79:19-75
+activity#com.baru.shawnmendes.daftaralbum.AlbumPemutarYoutube
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:80:9-89
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:80:19-86
+activity#com.baru.shawnmendes.mp3player.MainActivityJcPlayer
+ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:81:9-83:20
+	android:parentActivityName
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:82:13-73
+	android:label
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:81:86-112
+	android:name
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml:81:19-85
+uses-sdk
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.ads.consent:consent-library:1.0.6] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\consent-library-1.0.6.aar\da5e3bd89646e6d7ad878c4304575ef5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.ads.consent:consent-library:1.0.6] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\consent-library-1.0.6.aar\da5e3bd89646e6d7ad878c4304575ef5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.cortinico:slidetoact:v0.3.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\slidetoact-v0.3.0.aar\aa4f695ebaf32a07f2645021536475e2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.cortinico:slidetoact:v0.3.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\slidetoact-v0.3.0.aar\aa4f695ebaf32a07f2645021536475e2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\floatingsearchview-2.1.1.aar\3dd13adddf29e1844630d54f258c1072\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\floatingsearchview-2.1.1.aar\3dd13adddf29e1844630d54f258c1072\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\088848486935fd8536599ab0e69b6249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\088848486935fd8536599ab0e69b6249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5f47428919f68a97b3b87f8c79a502fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5f47428919f68a97b3b87f8c79a502fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fc213692d03b7c770a4fd74889d729e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fc213692d03b7c770a4fd74889d729e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\b4dc52e397f3fb75676f77894b3e2129\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\b4dc52e397f3fb75676f77894b3e2129\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\878aa83fd8a592b8dd09d3fe1825c984\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\878aa83fd8a592b8dd09d3fe1825c984\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\07a30cfcf8293edea398d6c8c9fe836b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\07a30cfcf8293edea398d6c8c9fe836b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\fab-1.6.2.aar\b36547814838db399aa761198b7f8c8e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\fab-1.6.2.aar\b36547814838db399aa761198b7f8c8e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\a9fc552e0ab1032aa73d9b83f9dd0fe5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\a9fc552e0ab1032aa73d9b83f9dd0fe5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\4b3128f9922e54ca7b597d7cb817da52\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\4b3128f9922e54ca7b597d7cb817da52\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:20:5-44
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewpropertyobjectanimator-1.2.0.aar\e2f4358c5701c87f7cd19f5115a7e6c6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewpropertyobjectanimator-1.2.0.aar\e2f4358c5701c87f7cd19f5115a7e6c6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e574b007182a2ec7e7072bb170b57b58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e574b007182a2ec7e7072bb170b57b58\AndroidManifest.xml:20:5-44
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\70ed19023911c2cf02671165e7ff7bc9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\70ed19023911c2cf02671165e7ff7bc9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\333a01c77c48d3642fd2106895e5fa63\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\333a01c77c48d3642fd2106895e5fa63\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\29a224792cb222f1f40235c3f8787955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\29a224792cb222f1f40235c3f8787955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\52376f7b6e38c77efb5c74456b8912d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\52376f7b6e38c77efb5c74456b8912d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d52a7244faa0ecab3c357241b19da4bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d52a7244faa0ecab3c357241b19da4bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\61b7dfd652cc031c04ab1590ea378463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\61b7dfd652cc031c04ab1590ea378463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a3daca30d5354817831335e13c29acc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a3daca30d5354817831335e13c29acc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\51083aa5cddd1436b56e3430cffac5e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\51083aa5cddd1436b56e3430cffac5e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e843fdd7a0dd9ebdbdfa0272ef9b73ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e843fdd7a0dd9ebdbdfa0272ef9b73ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\23811757cfec707f3c39eb69b5ec55fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\23811757cfec707f3c39eb69b5ec55fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\66750bfed49e3216057f228b30b8e8ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\66750bfed49e3216057f228b30b8e8ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\885af30e9224e7f57dda2df5a1e9d0ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\885af30e9224e7f57dda2df5a1e9d0ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\596c4edafed59cd9a78576c4605d273c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\596c4edafed59cd9a78576c4605d273c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2ebe84b912d020c7db133518d62a0c0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2ebe84b912d020c7db133518d62a0c0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d7099f922f1062ddddf7ec50ffdac80f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d7099f922f1062ddddf7ec50ffdac80f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\39e4032813916034426f48e5c8073d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\39e4032813916034426f48e5c8073d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\861b544f7d9be671205e650e15584318\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\861b544f7d9be671205e650e15584318\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\21bb6853f7fb746c6d24e81d43fc35c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\21bb6853f7fb746c6d24e81d43fc35c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e7c0b0242ba4bcb0b1ef0e50997a173a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e7c0b0242ba4bcb0b1ef0e50997a173a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\9e06edf9fc5055a0dd3ea7d32773519b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\9e06edf9fc5055a0dd3ea7d32773519b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\d1126a0ae8bdb5a721a94ab109b2078a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\d1126a0ae8bdb5a721a94ab109b2078a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\3a34b90448f681f34b3d2ba021fd3c69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\3a34b90448f681f34b3d2ba021fd3c69\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1b065fdb70718c9857d347ae0b43c477\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1b065fdb70718c9857d347ae0b43c477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9f1ae33ac73966f11506bdfe3c56e4ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9f1ae33ac73966f11506bdfe3c56e4ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a0e2653bbbc30a008412977c4c1d1231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a0e2653bbbc30a008412977c4c1d1231\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ccbfc40511cd8738a8e05fc18ea43b35\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ccbfc40511cd8738a8e05fc18ea43b35\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9645eba4127d418a8c2436184fd9f180\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9645eba4127d418a8c2436184fd9f180\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9eb2d7e2ee0bae047207c6b954d71be8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9eb2d7e2ee0bae047207c6b954d71be8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b1e897b88f8b0701d8d5f74dcbf19a30\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b1e897b88f8b0701d8d5f74dcbf19a30\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\b8086c00ebfe5dc1484516cc88744453\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\b8086c00ebfe5dc1484516cc88744453\AndroidManifest.xml:20:5-44
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\878aa83fd8a592b8dd09d3fe1825c984\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		ADDED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+		INJECTED from E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\app\src\main\AndroidManifest.xml
+service#com.example.jean.jcplayer.service.JcPlayerService
+ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:18:9-85
+	android:name
+		ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:18:18-82
+receiver#com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver
+ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:20:9-23:40
+	android:enabled
+		ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:22:13-35
+	android:exported
+		ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:jcplayer] E:\1. robertyulisman\1. projek Android Satu\1. bismillah dev\2. projek\shawnmendesmaster\jcplayer\build\intermediates\manifests\full\release\AndroidManifest.xml:21:13-103
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\709902e478d344e93933fc6a19ec4ccd\AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\180504cf82c72941fe81d1ef9e6fa00b\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\robertyulisman\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\ef7031a3f75cd3aa3b3d60fc05b89f04\AndroidManifest.xml:24:13-51

@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#bababa" />
+
+                    <ViewFlipper
+                        android:id="@+id/viewFlipper"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/hitam">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/wallpapersatu" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/wallpaperdua" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/wallpapertiga" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/wallpaperempat" />
+
+                    </ViewFlipper>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="25dp"
+                            android:padding="5dp"
+                            android:src="@drawable/icondua" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_alignBottom="@id/viewFlipper"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/hitamtransparant">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:fontFamily="@font/molengo"
+                            android:text="a Disney Channel Latin America musical telenovela"
+                            android:textColor="@color/putih"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+                <!-- tempat tombol menu -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <!-- tombol atas -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="125dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="10dp">
+
+
+                                <ImageButton
+                                    android:id="@+id/lirikmusik"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/efektombolmusiclirik" />
+
+                                <TextView
+                                    android:id="@+id/musiklirik"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="Music Lyric"
+                                    android:textColor="@color/hitam"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="125dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="10dp">
+
+
+                                <ImageButton
+                                    android:id="@+id/videolyric"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/efektombolvideolirik" />
+
+                                <TextView
+                                    android:id="@+id/videolirik"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="Video Lyric"
+                                    android:textColor="@color/hitam"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="125dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="10dp">
+
+                                <ImageButton
+                                    android:id="@+id/albumvideo"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/efektombolvideoalbum" />
+
+                                <TextView
+                                    android:id="@+id/musikplayer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="Music Player"
+                                    android:textColor="@color/hitam"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/abuabu"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                    </RelativeLayout>
+
+
+                    <!-- biography -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardCornerRadius="2dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <RelativeLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/biogr">
+
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="130dp"
+                                    android:layout_marginRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/judulbio"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:text="@string/app_name"
+                                        android:textColor="@color/hitam"
+                                        android:textSize="18dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/judulbiodua"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_toRightOf="@+id/judulbio"
+                                        android:text="Bioghraphy"
+                                        android:textColor="@color/hijau"
+                                        android:textSize="18dp" />
+
+                                    <TextView
+                                        android:id="@+id/deskripsisatu"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/judulbio"
+                                        android:layout_marginLeft="10dp"
+                                        android:text="a Disney Channel Latin America musical telenovela"
+                                        android:textColor="@color/abuabutua"
+                                        android:textSize="12dp" />
+
+                                    <RelativeLayout
+                                        android:id="@+id/garis"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:layout_below="@+id/deskripsisatu"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginRight="10dp"
+                                        android:background="@color/abuabu">
+
+
+                                    </RelativeLayout>
+
+                                    <TextView
+                                        android:id="@+id/isi"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/garis"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="Soy Luna (I'm Luna) is a Disney Channel Latin America musical telenovela. It premiered on March 14, 2016 in Latin America, and finished its run after three seasons with the 220th and last episode airing on August 17, 2018."
+                                        android:textColor="@color/abuabutua"
+                                        android:textSize="10dp"
+                                        android:textStyle="italic" />
+
+
+
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/abuabu"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/judulvideoalbum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/biru"
+                            android:text="Soy Luna Video Album"/>
+                        <TextView
+                            android:id="@+id/deskripsivideoalbum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="12dp"
+                            android:layout_below="@+id/judulvideoalbum"
+                            android:textStyle="italic"
+                            android:layout_marginBottom="10dp"
+                            android:text="Top Album Collection of Soy Luna"/>
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:id="@+id/tombolseevideoalbum"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="SEE All"
+                            android:textSize="18dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="@color/hijau"
+                            android:background="@null"
+                            android:layout_alignParentRight="true"/>
+
+                        <HorizontalScrollView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/deskripsivideoalbum">
+                            <LinearLayout
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:id="@+id/albumsatu"
+                                    android:layout_width="150dp"
+                                    android:layout_height="225dp"
+                                    android:layout_marginLeft="15dp">
+
+
+                                    <LinearLayout
+                                        android:layout_width="140dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="140dp"
+                                            android:layout_height="140dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/albumsatu"/>
+
+
+
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:textStyle="italic"
+                                            android:textSize="12dp"
+                                            android:text="@string/jumlah_lagu_satu"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:textSize="15dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:text="@string/judul_album_satu"/>
+
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:id="@+id/albumdua"
+                                    android:layout_width="150dp"
+                                    android:layout_height="225dp"
+                                    android:layout_marginLeft="15dp">
+
+
+                                    <LinearLayout
+                                        android:layout_width="140dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="140dp"
+                                            android:layout_height="140dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/albumdua"/>
+
+
+
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:textStyle="italic"
+                                            android:textSize="12dp"
+                                            android:text="@string/jumlah_lagu_dua"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:textSize="15dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:text="@string/judul_album_dua"/>
+
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:id="@+id/albumtiga"
+                                    android:layout_width="150dp"
+                                    android:layout_height="225dp"
+                                    android:layout_marginLeft="15dp">
+
+
+                                    <LinearLayout
+                                        android:layout_width="140dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="140dp"
+                                            android:layout_height="140dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/albumtiga"/>
+
+
+
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:textStyle="italic"
+                                            android:textSize="12dp"
+                                            android:text="@string/jumlah_lagu_tiga"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:textSize="15dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:text="@string/judul_album_tiga"/>
+
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:id="@+id/albumempat"
+                                    android:layout_width="150dp"
+                                    android:layout_height="225dp"
+                                    android:layout_marginLeft="15dp">
+
+
+                                    <LinearLayout
+                                        android:layout_width="140dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="140dp"
+                                            android:layout_height="140dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/albumempat"/>
+
+
+
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:textStyle="italic"
+                                            android:textSize="12dp"
+                                            android:text="@string/jumlah_lagu_empat"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:textSize="15dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:text="@string/judul_album_empat"/>
+
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:id="@+id/albumlima"
+                                    android:layout_width="150dp"
+                                    android:layout_height="225dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp">
+
+
+                                    <LinearLayout
+                                        android:layout_width="140dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="140dp"
+                                            android:layout_height="140dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/albumlima"/>
+
+
+
+
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:textStyle="italic"
+                                            android:textSize="12dp"
+                                            android:text="@string/jumlah_lagu_lima"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:textSize="15dp"
+                                            android:fontFamily="@font/molengo"
+                                            android:text="@string/judul_album_lima"/>
+
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/abuabu"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/fontsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Soy Luna Video Lyrics"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Best Soy Luna Music Video Collection with Lyrics"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="12dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/abuabutua"
+                        android:layout_marginBottom="5dp"
+                        />
+
+
+
+
+                    <!-- Video Lyric -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <HorizontalScrollView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <android.support.v7.widget.CardView
+                                        android:id="@+id/mvsatu"
+                                        android:foreground="?android:attr/selectableItemBackground"
+                                        android:clickable="true"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="17dp"
+                                        app:cardCornerRadius="2dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            android:gravity="center">
+
+                                            <ImageView
+
+                                                android:layout_width="120dp"
+                                                android:layout_height="125dp"
+                                                android:layout_marginTop="5dp"
+                                                android:background="@drawable/mvsatu"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Valiente"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Soy Luna"
+                                                android:textSize="12dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="5dp"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+                                    <android.support.v7.widget.CardView
+                                        android:id="@+id/mvdua"
+                                        android:layout_width="150dp"
+                                        android:foreground="?android:attr/selectableItemBackground"
+                                        android:clickable="true"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="10dp"
+                                        app:cardCornerRadius="2dp">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            android:gravity="center">
+
+                                            <ImageView
+
+                                                android:layout_width="120dp"
+                                                android:layout_height="125dp"
+                                                android:layout_marginTop="5dp"
+                                                android:background="@drawable/mvdua"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Alas"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Soy Luna"
+                                                android:textSize="12dp"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+                                    <android.support.v7.widget.CardView
+                                        android:id="@+id/mvtiga"
+                                        android:layout_width="150dp"
+                                        android:foreground="?android:attr/selectableItemBackground"
+                                        android:clickable="true"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="10dp"
+                                        app:cardCornerRadius="2dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            android:gravity="center">
+
+                                            <ImageView
+
+                                                android:layout_width="120dp"
+                                                android:layout_height="125dp"
+                                                android:layout_marginTop="5dp"
+                                                android:background="@drawable/mvtiga"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Eres"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Soy Luna"
+                                                android:textSize="12dp"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+                                    <android.support.v7.widget.CardView
+                                        android:id="@+id/mvempat"
+                                        android:foreground="?android:attr/selectableItemBackground"
+                                        android:clickable="true"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="15dp"
+                                        app:cardCornerRadius="2dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            android:gravity="center">
+
+                                            <ImageView
+
+                                                android:layout_width="120dp"
+                                                android:layout_height="125dp"
+                                                android:layout_marginTop="5dp"
+                                                android:background="@drawable/mvempat"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Soy Luna"
+                                                android:textSize="16dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Modo Amar"
+                                                android:textSize="12dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="5dp"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/abuabutua"
+                                                />
+
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/abuabu"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                    </RelativeLayout>
+
+
+
+                    <!-- Soy Luna lifestyle -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagelifestyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/imagesatu">
+
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/judullifestyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="#About Karol Sevilla"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/biru"
+                            android:layout_below="@+id/imagelifestyle"
+                            />
+                        <TextView
+                            android:id="@+id/deskripsilifestyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="a Mexican actress, singer, songwriter, and YouTuber. Check out this biography to know about her childhood, family life, achievements, and fun facts about her. "
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            android:textColor="@color/abuabutua"
+                            android:layout_marginBottom="5dp"
+                            android:layout_below="@+id/judullifestyle"
+                            />
+
+                        <Button
+                            android:id="@+id/tombollifestyle"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="see more"
+                            android:textSize="14dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_below="@+id/deskripsilifestyle"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="@color/putih"
+                            android:background="@color/hijautua"
+                            android:layout_marginBottom="5dp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/abuabu"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                    </RelativeLayout>
+
+                    <!-- Soy Luna fashion -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagefashion"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/imagedua">
+
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/judulfashion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="#About Michael Ronda"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/orange"
+                            android:layout_below="@+id/imagefashion"
+                            />
+                        <TextView
+                            android:id="@+id/deskripsifashion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Starred in the feature films La Noche del Pirata and Bacalar. He went on..."
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            android:textColor="@color/abuabutua"
+                            android:layout_marginBottom="5dp"
+                            android:layout_below="@+id/judulfashion"
+                            />
+
+                        <Button
+                            android:id="@+id/tombolfashion"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="see more"
+                            android:textSize="14dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/hijautua"
+                            android:layout_below="@+id/deskripsifashion"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="@color/putih"
+                            android:layout_marginBottom="5dp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/abuabu"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                    </RelativeLayout>
+
+                    <!-- Soy Luna Reviews -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageReviews"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/imagetiga">
+
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/judulReviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="#About Valentina Zenere"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/ungu"
+                            android:layout_below="@+id/imageReviews"
+                            />
+                        <TextView
+                            android:id="@+id/deskripsiReviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Valentina Zenere is an actress, known for Aliados (2013), Casi ángeles (2007) and Soy Luna (2016)"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            android:textColor="@color/abuabutua"
+                            android:layout_marginBottom="5dp"
+                            android:layout_below="@+id/judulReviews"
+                            />
+
+                        <Button
+                            android:id="@+id/tombolreviews"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="see more"
+                            android:textSize="14dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/hijautua"
+                            android:layout_below="@+id/deskripsiReviews"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="@color/putih"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
